@@ -1,0 +1,229 @@
+//FOR CHANGING CAPTCHA IMG ON RELOADING
+var capImg = Math.floor(Math.random()*12)+1;
+
+if(capImg===1)
+{
+  document.querySelector(".captchaImg").setAttribute("src","cap1.png")
+}
+if(capImg===2)
+{
+  document.querySelector(".captchaImg").setAttribute("src","cap2.png")
+}
+if(capImg===3)
+{
+  document.querySelector(".captchaImg").setAttribute("src","cap3.png")
+}
+if(capImg===4)
+{
+  document.querySelector(".captchaImg").setAttribute("src","cap4.png")
+}
+if(capImg===5)
+{
+  document.querySelector(".captchaImg").setAttribute("src","cap5.png")
+}
+if(capImg===6)
+{
+  document.querySelector(".captchaImg").setAttribute("src","cap6.png")
+}
+if(capImg===7)
+{
+  document.querySelector(".captchaImg").setAttribute("src","cap7.png")
+}
+if(capImg===8)
+{
+  document.querySelector(".captchaImg").setAttribute("src","cap8.png")
+}
+if(capImg===9)
+{
+  document.querySelector(".captchaImg").setAttribute("src","cap9.png")
+}
+if(capImg===10)
+{
+  document.querySelector(".captchaImg").setAttribute("src","cap10.png")
+}
+if(capImg===11)
+{
+  document.querySelector(".captchaImg").setAttribute("src","cap11.png")
+}
+if(capImg===12)
+{
+  document.querySelector(".captchaImg").setAttribute("src","cap12.png")
+}
+//FOR READ MORE/LESS BUTTON
+function readMore1()
+{
+  if(document.querySelector(".textarea1").getAttribute("rows")==="10")
+  {
+  document.querySelector(".textarea1").rows="15";
+  document.querySelector(".batan").innerHTML="Read Less...";
+  document.querySelector(".batan").style.display="relative";
+  document.querySelector(".batan").style.top="922px";
+  document.querySelector(".batan1").style.display="relative";
+  document.querySelector(".batan1").style.top="1295px";
+  document.querySelector(".prev").style.display="relative";
+  document.querySelector(".prev").style.top="1332px";
+  document.querySelector(".next").style.display="relative";
+  document.querySelector(".next").style.top="1332px";
+  document.querySelector(".foot").style.display="relative";
+  document.querySelector(".foot").style.top="1402px";
+  document.querySelector("hr").style.display="relative";
+  document.querySelector("hr").style.top="1395px";
+  }
+  else
+  {
+  document.querySelector(".textarea1").rows="10";
+  document.querySelector(".batan").innerHTML="Read More...";
+  document.querySelector(".batan").style.display="relative";
+  document.querySelector(".batan").style.top="770px";
+  document.querySelector(".batan1").style.display="relative";
+  document.querySelector(".batan1").style.top="1143px";
+  document.querySelector(".prev").style.display="relative";
+  document.querySelector(".prev").style.top="1180px";
+  document.querySelector(".next").style.display="relative";
+  document.querySelector(".next").style.top="1180px";
+  document.querySelector(".foot").style.display="relative";
+  document.querySelector(".foot").style.top="1250px";
+  document.querySelector("hr").style.display="relative";
+  document.querySelector("hr").style.top="1243px";
+  }
+  if((document.querySelector(".textarea1").getAttribute("rows")=="15")&&(document.querySelector(".textarea2").getAttribute("rows")=="10"))
+  {
+    document.querySelector(".batan").style.display="relative";
+    document.querySelector(".batan").style.top="922px";
+    document.querySelector(".batan1").style.display="relative";
+    document.querySelector(".batan1").style.top="1295px";
+    document.querySelector(".prev").style.display="relative";
+    document.querySelector(".prev").style.top="1332px";
+    document.querySelector(".next").style.display="relative";
+    document.querySelector(".next").style.top="1332px";
+    document.querySelector(".foot").style.display="relative";
+    document.querySelector(".foot").style.top="1402px";
+    document.querySelector("hr").style.display="relative";
+    document.querySelector("hr").style.top="1395px";
+  }
+  if((document.querySelector(".textarea1").getAttribute("rows")=="10")&&(document.querySelector(".textarea2").getAttribute("rows")=="15"))
+  {
+    document.querySelector(".batan").style.display="relative";
+    document.querySelector(".batan").style.top="770px";
+    document.querySelector(".batan1").style.display="relative";
+    document.querySelector(".batan1").style.top="1295px";
+    document.querySelector(".prev").style.display="relative";
+    document.querySelector(".prev").style.top="1332px";
+    document.querySelector(".next").style.display="relative";
+    document.querySelector(".next").style.top="1332px";
+    document.querySelector(".foot").style.display="relative";
+    document.querySelector(".foot").style.top="1402px";
+    document.querySelector("hr").style.display="relative";
+    document.querySelector("hr").style.top="1395px";
+  }
+  if((document.querySelector(".textarea1").getAttribute("rows")=="15")&&(document.querySelector(".textarea2").getAttribute("rows")=="15"))
+  {
+    document.querySelector(".batan1").style.display="relative";
+    document.querySelector(".batan1").style.top="1447px";
+    document.querySelector(".prev").style.display="relative";
+    document.querySelector(".prev").style.top="1484px";
+    document.querySelector(".next").style.display="relative";
+    document.querySelector(".next").style.top="1484px";
+    document.querySelector(".foot").style.display="relative";
+    document.querySelector(".foot").style.top="1554px";
+    document.querySelector("hr").style.display="relative";
+    document.querySelector("hr").style.top="1547px";
+  }
+}
+document.querySelector(".batan").addEventListener("click",readMore1);
+function readMore2()
+{
+  if(document.querySelector(".textarea2").getAttribute("rows")==="10")
+  {
+  document.querySelector(".textarea2").rows="15";
+  document.querySelector(".batan1").innerHTML="Read Less...";
+  document.querySelector(".batan1").style.display="relative";
+  document.querySelector(".batan1").style.top="1295px";
+  document.querySelector(".prev").style.display="relative";
+  document.querySelector(".prev").style.top="1332px";
+  document.querySelector(".next").style.display="relative";
+  document.querySelector(".next").style.top="1332px";
+  document.querySelector(".foot").style.display="relative";
+  document.querySelector(".foot").style.top="1402px";
+  document.querySelector("hr").style.display="relative";
+  document.querySelector("hr").style.top="1395px";
+  }
+  else
+  {
+    document.querySelector(".textarea2").rows="10";
+    document.querySelector(".batan1").innerHTML="Read More...";
+    document.querySelector(".batan1").style.display="relative";
+    document.querySelector(".batan1").style.top="1143px";
+    document.querySelector(".prev").style.display="relative";
+    document.querySelector(".prev").style.top="1180px";
+    document.querySelector(".next").style.display="relative";
+    document.querySelector(".next").style.top="1180px";
+    document.querySelector(".foot").style.display="relative";
+    document.querySelector(".foot").style.top="1250px";
+    document.querySelector("hr").style.display="relative";
+    document.querySelector("hr").style.top="1243px";
+  }
+  if((document.querySelector(".textarea1").getAttribute("rows")=="15")&&(document.querySelector(".textarea2").getAttribute("rows")=="10"))
+  {
+    document.querySelector(".batan").style.display="relative";
+    document.querySelector(".batan").style.top="922px";
+    document.querySelector(".batan1").style.display="relative";
+    document.querySelector(".batan1").style.top="1295px";
+    document.querySelector(".prev").style.display="relative";
+    document.querySelector(".prev").style.top="1332px";
+    document.querySelector(".next").style.display="relative";
+    document.querySelector(".next").style.top="1332px";
+    document.querySelector(".foot").style.display="relative";
+    document.querySelector(".foot").style.top="1402px";
+    document.querySelector("hr").style.display="relative";
+    document.querySelector("hr").style.top="1395px";
+  }
+  if((document.querySelector(".textarea1").getAttribute("rows")=="10")&&(document.querySelector(".textarea2").getAttribute("rows")=="15"))
+  {
+    document.querySelector(".batan").style.display="relative";
+    document.querySelector(".batan").style.top="770px";
+    document.querySelector(".batan1").style.display="relative";
+    document.querySelector(".batan1").style.top="1295px";
+    document.querySelector(".prev").style.display="relative";
+    document.querySelector(".prev").style.top="1332px";
+    document.querySelector(".next").style.display="relative";
+    document.querySelector(".next").style.top="1332px";
+    document.querySelector(".foot").style.display="relative";
+    document.querySelector(".foot").style.top="1402px";
+    document.querySelector("hr").style.display="relative";
+    document.querySelector("hr").style.top="1395px";
+  }
+  if ((document.querySelector(".textarea1").getAttribute("rows")=="15")&&(document.querySelector(".textarea2").getAttribute("rows")=="15"))
+  {
+    document.querySelector(".batan1").style.display="relative";
+    document.querySelector(".batan1").style.top="1447px";
+    document.querySelector(".prev").style.display="relative";
+    document.querySelector(".prev").style.top="1484px";
+    document.querySelector(".next").style.display="relative";
+    document.querySelector(".next").style.top="1484px";
+    document.querySelector(".foot").style.display="relative";
+    document.querySelector(".foot").style.top="1554px";
+    document.querySelector("hr").style.display="relative";
+    document.querySelector("hr").style.top="1547px";
+  }
+}
+document.querySelector(".batan1").addEventListener("click",readMore2);
+//RELOAD HOME PAGE BY CLICKING ON CODERAMA
+function reloadHome()
+{
+  location.reload(true);
+}
+document.querySelector(".header").addEventListener("click",reloadHome);
+//FOR PREVIOUS AND NEXT BUTTONS
+function prevButton()
+{
+  document.querySelector(".textarea1").innerHTML="GEEk";
+  document.querySelector(".textarea2").innerHTML="GEEK";
+}
+document.querySelector(".prev").addEventListener("click",prevButton);
+function nextButton()
+{
+  document.querySelector(".textarea1").innerHTML="GEEK";
+  document.querySelector(".textarea2").innerHTML=" GEEK";
+}
+document.querySelector(".next").addEventListener("click",nextButton);

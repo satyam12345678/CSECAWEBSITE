@@ -1,0 +1,357 @@
+
+.top1{
+  height: 90px;
+  width: 100%;
+  background-color: #40bfc1;
+
+ float: left;
+
+}
+
+body{
+  margin: 0;
+  background-color: #ebe6e6;
+
+}
+.header{
+color: white;
+font-family:  cursive;
+margin-left: 30px;
+margin-top: 0;
+margin-bottom: 0;
+position: relative;
+top: -20px;
+left: 50px;
+bottom:15px;
+font-size: 3em;
+}
+.header:hover
+{
+  transform:scale(1.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.img1{
+  background-color: #40bfc1;
+  width: 80px;
+  height: 80px;
+  margin-left: 30px;
+  margin-top: 5px;
+  position: relative;
+  left: 50px;
+
+}
+.inl{
+  display: inline-block;
+}
+p{
+  color: white;
+  font-family: cursive;
+  font-size: 30px;
+  position: relative;
+
+  bottom:20px;
+  transition: 0.3s;
+
+}
+.p1{
+ margin-left: 475px;
+
+}
+.p2{
+margin-left: 35px;
+}
+.p3{
+  margin-left: 35px;
+}
+.p4{
+  margin-left: 35px;
+}
+.tagbar{
+  text-decoration: none;
+  color: white;
+}
+div{
+  position: fixed;
+  top: 0;
+}
+p:hover{
+  transform: scale(1.2);
+
+}
+.tagbar{
+  transition: color 0.3s;
+}
+.tagbar:hover{
+  color: #393e46;
+}
+.span{
+  color: #357376;
+}
+.code{
+  font-family: monospace;
+
+}
+.codebit{
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  font-size: 1.2em;
+}
+.codebar{
+  color: black;
+  text-decoration: none;
+
+}
+.topratedp{
+  position: absolute;
+  right: 50px;
+  top: 490px;
+  border: solid black ;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: scroll;
+  height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+li{
+  font-size: 1.5em;
+}
+.topratedp2{
+  position: absolute;
+  right: 50px;
+  top: 920px;
+  border: solid black ;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: scroll;
+  height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.midpic{
+  position: absolute;
+  top: 120px;
+  left: 320px;
+}
+.prob{
+  position: absolute;
+  top: 450px;
+  left: 20px;
+}
+.lable{
+  font-size: 32px;
+}
+.textarea1{
+  font-size: 2em;
+  border: solid black;
+
+}
+.textarea2{
+  font-size: 2em;
+  border: solid black;
+}
+hr{
+  position: absolute;
+  top: 1243px;
+  left: 40% ;
+  background-color:#ebe6e6 ;
+  border-style: none;
+  border-top: dotted;
+  border-color: grey;
+
+  height: 5px;
+  width: 20%;
+  border-width: 5px;
+}
+@keyframes blink {
+  0%{
+    opacity: 1;
+  }
+  49%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+
+}
+.abc{
+  position: absolute;
+  left:90px;
+  top: 380px;
+  background-color: black;
+  height: 35px;
+  width: 2.5px;
+  animation: blink 1s;
+  animation-iteration-count: infinite;
+}
+.foot{
+  position: absolute;
+  top: 1250px;
+  left: 42%;
+  color: grey;
+  font-size: 16px;
+  text-align: center;
+}
+.batan{
+  position: absolute;
+  top: 770px;
+  left: 1008px;
+  border-radius: 4px;
+  background-color: #40bfc1;
+  color: white;
+}
+.batan1{
+  position: absolute;
+  top: 1143px;
+  left: 1008px;
+  border-radius: 4px;
+  background-color: #40bfc1;
+  color: white;
+}
+.topratedp3{
+  position: absolute;
+  right: 50px;
+  top: 980px;
+  border: solid black ;
+  padding-left: 40px;
+  padding-right: 40px;
+  overflow: scroll;
+  height: 400px;
+}
+.prev{
+ position: absolute;
+ top: 1180px;
+ left: 20px;
+ padding: 5px;
+ font-size: 16px;
+ border-radius: 4px;
+ background-color: #40bfc1;
+ color: white;
+}
+.next{
+  position: absolute;
+  top: 1180px;
+  left: 1045px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #40bfc1;
+  color: white;
+}
+.signup
+{
+  position: absolute;
+  top: 150px;
+  right: 110px;
+
+
+}
+.captchaImg
+{
+  height:30px;
+  width:150px;
+  position: relative;
+  bottom: 25px;
+  left: 180px;
+}
+.signuptext
+{
+  font-family: cursive;
+        font-size: 1.5em;
+  color: #393e46;
+}
+.inputboxcap
+{
+  position: relative;
+  top: 5px;
+  height:25px;
+}
+.inputboxem
+{
+  height: 25px;
+  width: 250px;
+}
+.inputboxpass
+{
+  height: 25px;
+  width: 250px;
+}
+.checkbox
+{
+  transform: scale(2);
+}
+.signUpHead
+{
+  position: absolute;
+  top: 80px;
+  right: 55px;
+  font-family: cursive;
+}
+.submission
+{
+  position: relative;
+  left: 30px;
+  border-radius: 4px;
+  background-color: #40bfc1;
+  color: white;
+
+}
+.batan:hover
+{
+  background-color:  #ebe6e6;
+  color:  #357376;
+  cursor: pointer;
+}
+.batan1:hover
+{
+  background-color:  #ebe6e6;
+  color:  #357376;
+  cursor: pointer;
+}
+.next:hover
+{
+  background-color:  #ebe6e6;
+  color:  #357376;
+  cursor: pointer;
+}
+.prev:hover
+{
+  background-color:  #ebe6e6;
+  color:  #357376;
+  cursor: pointer;
+}
+.submission:hover
+{
+  background-color:  #ebe6e6;
+  color:  #357376;
+  cursor: pointer;
+}
+.codebar:hover
+{
+  font-size: 33px;
+  transition: 0.3s;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
